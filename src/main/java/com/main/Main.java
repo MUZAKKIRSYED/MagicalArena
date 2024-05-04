@@ -21,7 +21,7 @@ public class Main {
 			 
 			//Checking Negative Integers Condition 
 			if(player1Health>=0&&player1Strength>=0&&player1Attack>=0&&player2Health>=0&&player2Strength>=0&&player2Attack>=0) {
-				Logic.play(p1, p2);
+				System.out.println(Logic.play(p1, p2));
 			}
 			else {
 				System.out.println("Incorrect Attributes");

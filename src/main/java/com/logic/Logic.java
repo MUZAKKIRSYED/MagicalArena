@@ -5,8 +5,8 @@ import com.model.Player;
 
 public class Logic {
 	
-	public static void play(Player p1,Player p2) {
-		boolean resultCheck = true;
+	public static String play(Player p1,Player p2) {
+		String resultCheck = "continue";
 		boolean condition = true;
 		resultCheck = check(p1, p2);
 		if(p1.getHealth()>p2.getHealth()){
@@ -17,7 +17,7 @@ public class Logic {
 			playing(p2, p1);
 		}
 		resultCheck = check(p1, p2);
-		while(resultCheck) {		
+		while(resultCheck=="continue") {		
 			if(condition==true) {
 				playing(p1,p2);
 				condition=false;
@@ -28,6 +28,7 @@ public class Logic {
 			}
 			resultCheck = check(p1, p2);
 		}
+		return resultCheck;
 	}
 	public static void playing(Player p1,Player p2) {
 		Random random = new Random();
@@ -40,16 +41,14 @@ public class Logic {
 			p1.setHealth(resultScore);
 		}
 	}
-	public static boolean check(Player p1,Player p2) {
+	public static String check(Player p1,Player p2) {
 		if(p1.getHealth()<=0) {
-			System.out.println("Player 2 wins");
-			return false;
+			return "Player 2 wins";
 		}
 		else if(p2.getHealth()<=0) {
-			System.out.println("Player 1 wins");
-			return false;
+			return "Player 1 wins";
 		}
-		return true;
+		return "continue";
 	}
 	
 }
