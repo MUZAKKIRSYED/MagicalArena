@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		try(Scanner scan = new Scanner(System.in)) {
-			//Taking Input
+		try(Scanner scan = new Scanner(System.in)){
 			System.out.print("Enter Player 1 Health: ");int player1Health = scan.nextInt();
 			System.out.print("Enter Player 1 Strength: ");int player1Strength = scan.nextInt();
 			System.out.print("Enter Player 1 Attack: ");int player1Attack = scan.nextInt();
@@ -18,17 +17,8 @@ public class Main {
 			//Initializing Player Objects 
 			Player p1 = new Player(player1Health,player1Strength,player1Attack);
 			Player p2 = new Player(player2Health,player2Strength,player2Attack);
-			 
-			//Checking Negative Integers Condition 
-			if(player1Health>=0&&player1Strength>=0&&player1Attack>=0&&player2Health>=0&&player2Strength>=0&&player2Attack>=0) {
-				System.out.println(Logic.play(p1, p2));
-			}
-			else {
-				System.out.println("Incorrect Attributes");
-			}
+			System.out.println(Logic.play(p1,p2));
 		}
-		catch(Exception e) {
-			System.out.println(e);
-		}
+		catch(Exception e) {System.out.println(e);}
 	}
 }
