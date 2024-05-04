@@ -1,0 +1,59 @@
+commit 01c82eb10d7a2abc67adbccda012d391b35ed1f2
+Author: SYED MUZAKKIR <114302345+MUZAKKIRSYED@users.noreply.github.com>
+Date:   Sat May 4 18:57:24 2024 +0530
+
+    Update README.md
+
+commit 1ab174606d3400a7c631f306bad0dd6c74b1d516
+Author: SYED MUZAKKIR <114302345+MUZAKKIRSYED@users.noreply.github.com>
+Date:   Sat May 4 18:00:43 2024 +0530
+
+    Create README.md
+
+commit e988dd44d237019678eae5ca0adeeaffa148e41f
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 17:46:23 2024 +0530
+
+    Added Additional Unit Tests for code reliability
+
+commit eed9ce77aa49ad2004deecb8e00b398b2150d9bc
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 17:01:49 2024 +0530
+
+    Organized Unit tests
+
+commit 540f2e60355ab28539bfac81764f1c56f14edade
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 16:49:18 2024 +0530
+
+    Added Unit tests to test code
+
+commit 207670e7524d8307ca2eab806e616ec2e2cecc67
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 16:41:38 2024 +0530
+
+    Improved Code Readability
+
+commit e9fe118c31a50f049735be9a2d84a7ec5fc73929
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 16:29:08 2024 +0530
+
+    Improving Exception Handling and simplifying the game
+
+commit da42e050b7e85c938f0c4f64cbd5a9cfcbe1ff45
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 14:43:41 2024 +0530
+
+    Main Logic Modified
+
+commit 011a8079a58bc4b25aa7a17d82b5d795eb4a2738
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 14:39:36 2024 +0530
+
+    Exception Handling Done
+
+commit 62ee6c78ae4e6ca5c3da988659d1071b60081de9
+Author: muzakkir <muzakkirsyed123@gmail.com>
+Date:   Sat May 4 14:37:07 2024 +0530
+
+    Main Logic Implemented
