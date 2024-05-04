@@ -1,14 +1,14 @@
-Magical Arena
+Magical Arena :
 Magical Arena is a Java project where players battle using their skills and luck. Implemented with object-oriented programming, the project includes a game simulation and unit tests for testing various scenarios.
 
-Introduction
+Introduction :
 In this magical arena, players fight against each other until one's health drops to zero. Each player is defined by three attributes:
 
 Health: The player's health indicates how much damage they can withstand before being defeated.
 Strength: The player's strength determines how much damage they can defend against during a battle.
 Attack: The player's attack power indicates how much damage they can inflict on their opponent.
 
-Gameplay
+Gameplay :
 Players attack in turns.
 Player with lower Health attacks first.
 The attacking player rolls the attacking dice, and the defending player rolls the defending dice.
