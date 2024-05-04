@@ -51,11 +51,9 @@ public class Logic {
 				while (resultCheck == "continue") {
 					if (condition == true) {
 						playing(Player1, player2);
-						System.out.println("p2 attack");
 						condition = false;
 					} else {
 						playing(player2, Player1);
-						System.out.println("p1 attack");
 						condition = true;
 					}
 					resultCheck = check(Player1, player2);
@@ -80,8 +78,6 @@ public class Logic {
 			int resultScore = player1.getHealth() - (attackingScore - defendingScore);
 			player1.setHealth(resultScore);
 		}
-		System.out.println(attackingDie + " " + defendingDie + " " + attackingScore + " " + defendingScore
-				+ player1.getHealth() + " " + player2.getHealth());
 	}
 
 	// Method to check the Status of Health of Players
